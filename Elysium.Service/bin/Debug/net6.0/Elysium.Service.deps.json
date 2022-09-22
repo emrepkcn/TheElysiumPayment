@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Elysium.Service/1.0.0": {
+        "dependencies": {
+          "Elysium.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Elysium.Service.dll": {}
+        }
+      },
+      "Elysium.Core/1.0.0": {
+        "runtime": {
+          "Elysium.Core.dll": {}
+        }
+      },
+      "Elysium.Repository/1.0.0": {
+        "dependencies": {
+          "Elysium.Core": "1.0.0"
+        },
+        "runtime": {
+          "Elysium.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elysium.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elysium.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elysium.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
