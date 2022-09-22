@@ -16,6 +16,7 @@ namespace Elysium.Web.Controllers
         public IActionResult Index()
         {
             return View();
+            //Test
         }
 
         public IActionResult Privacy()
