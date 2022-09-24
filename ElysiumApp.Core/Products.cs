@@ -15,5 +15,9 @@ namespace Elysium.Core
         public string ShortDescription { get; set; }
         public int ProductLabelId { get; set; }
         public int LangId { get; set; }
+        public int HotelId { get; set; }
+
+        public Lang Lang { get; set; }
+
     }
 }
