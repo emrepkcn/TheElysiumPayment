@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dforAM7Y3xfyKxY6DJXm9mjzXu1rbJcVOqUi9cd8AwGI3/pBjkSdS8ynGmyo2obdRZpIrnWpBTK0NtY5eWx8CA==",
+  "dgSpecHash": "h9eEM5/uxW9XvB3OYRJ4MoVqXtRqxxnMOumElBO1Qznnon42WF5CKDllSlEneBbVHf0V1dsbh4sFF9ctc94Rpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentCore\\ElysiumApp\\Elysium.Caching\\Elysium.Caching.csproj",
+  "projectFilePath": "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\Elysium.Caching\\Elysium.Caching.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

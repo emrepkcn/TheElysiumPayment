@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZFDZbQ7WTpkqW8O8fOnZyoidmjbF7GkGx6jpk8ClW6YSGfJGwbbLy2NubVEU4n70wGwuX+vLA3UELG+MyZR5g==",
+  "dgSpecHash": "XwPL8AeKRbvlOhQKmlI7hEcGDoeDCLgJGYTdTRW7fPUQjRpOZe1wrCr9WVCDLZxLMFqGFBm7cFlj6rYHD8qy6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentCore\\ElysiumApp\\ElysiumApp.Core\\Elysium.Core.csproj",
+  "projectFilePath": "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\ElysiumApp.Core\\Elysium.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
