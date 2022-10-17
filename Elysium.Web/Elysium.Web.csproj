@@ -7,7 +7,85 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Template\.gitattributes" />
+    <None Include="wwwroot\Template\.gitignore" />
+    <None Include="wwwroot\Template\cart.html" />
+    <None Include="wwwroot\Template\checkout.html" />
+    <None Include="wwwroot\Template\css\animate.css" />
+    <None Include="wwwroot\Template\css\bootstrap.min.css" />
+    <None Include="wwwroot\Template\css\classy-nav.min.css" />
+    <None Include="wwwroot\Template\css\core-style.css" />
+    <None Include="wwwroot\Template\css\core-style.css.map" />
+    <None Include="wwwroot\Template\css\font-awesome.min.css" />
+    <None Include="wwwroot\Template\css\jquery-ui.min.css" />
+    <None Include="wwwroot\Template\css\magnific-popup.css" />
+    <None Include="wwwroot\Template\css\nice-select.css" />
+    <None Include="wwwroot\Template\css\owl.carousel.css" />
+    <None Include="wwwroot\Template\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\Template\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Template\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\Template\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\Template\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Template\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\Template\fonts\helveticaneue_medium-webfont.ttf" />
+    <None Include="wwwroot\Template\fonts\helveticaneue_medium-webfont.woff" />
+    <None Include="wwwroot\Template\fonts\helveticaneue_medium-webfont.woff2" />
+    <None Include="wwwroot\Template\fonts\helvetica_neu_bold-webfont.ttf" />
+    <None Include="wwwroot\Template\fonts\helvetica_neu_bold-webfont.woff" />
+    <None Include="wwwroot\Template\fonts\helvetica_neu_bold-webfont.woff2" />
+    <None Include="wwwroot\Template\img\bg-img\1.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\2.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\3.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\4.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\5.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\6.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\7.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\8.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\9.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\cart1.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\cart2.jpg" />
+    <None Include="wwwroot\Template\img\bg-img\cart3.jpg" />
+    <None Include="wwwroot\Template\img\core-img\cart.png" />
+    <None Include="wwwroot\Template\img\core-img\favicon.ico" />
+    <None Include="wwwroot\Template\img\core-img\favorites.png" />
+    <None Include="wwwroot\Template\img\core-img\logo.png" />
+    <None Include="wwwroot\Template\img\core-img\logo2.png" />
+    <None Include="wwwroot\Template\img\core-img\paypal.png" />
+    <None Include="wwwroot\Template\img\core-img\search.png" />
+    <None Include="wwwroot\Template\img\product-img\pro-big-1.jpg" />
+    <None Include="wwwroot\Template\img\product-img\pro-big-2.jpg" />
+    <None Include="wwwroot\Template\img\product-img\pro-big-3.jpg" />
+    <None Include="wwwroot\Template\img\product-img\pro-big-4.jpg" />
+    <None Include="wwwroot\Template\img\product-img\product1.jpg" />
+    <None Include="wwwroot\Template\img\product-img\product2.jpg" />
+    <None Include="wwwroot\Template\img\product-img\product3.jpg" />
+    <None Include="wwwroot\Template\img\product-img\product4.jpg" />
+    <None Include="wwwroot\Template\img\product-img\product5.jpg" />
+    <None Include="wwwroot\Template\img\product-img\product6.jpg" />
+    <None Include="wwwroot\Template\index.html" />
+    <None Include="wwwroot\Template\js\active.js" />
+    <None Include="wwwroot\Template\js\bootstrap.min.js" />
+    <None Include="wwwroot\Template\js\classy-nav.min.js" />
+    <None Include="wwwroot\Template\js\jquery\jquery-2.2.4.min.js" />
+    <None Include="wwwroot\Template\js\map-active.js" />
+    <None Include="wwwroot\Template\js\plugins.js" />
+    <None Include="wwwroot\Template\js\popper.min.js" />
+    <None Include="wwwroot\Template\product-details.html" />
+    <None Include="wwwroot\Template\scss\style.scss" />
+    <None Include="wwwroot\Template\scss\_mixin.scss" />
+    <None Include="wwwroot\Template\scss\_responsive.scss" />
+    <None Include="wwwroot\Template\scss\_theme_color.scss" />
+    <None Include="wwwroot\Template\scss\_variables.scss" />
+    <None Include="wwwroot\Template\shop.html" />
+    <None Include="wwwroot\Template\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Elysium.Service\Elysium.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\image\" />
   </ItemGroup>
 
 </Project>

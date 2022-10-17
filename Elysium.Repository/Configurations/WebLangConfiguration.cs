@@ -12,6 +12,7 @@ namespace Elysium.Repository.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Title).IsRequired().HasMaxLength(70);
             builder.Property(x => x.LangId).IsRequired().HasMaxLength(50);
+            builder.Property(x => x.Key).IsRequired().HasMaxLength(70);
             builder.ToTable("WebLang");
         }
     }

@@ -1,49 +1,154 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Elysium.Web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Elysium.Web.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>The Elysium Payment</title>
+
+    <link rel="icon" href="Template/img/core-img/favicon.ico">
+
+    <link rel="stylesheet" href="Template/css/core-style.css">
+    <link rel="stylesheet" href="Template/css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Elysium.Web</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+    <div class="search-wrapper section-padding-100">
+        <div class="search-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-content">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                            <button type="submit"><img src="Template/img/core-img/search.png" alt=""></button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <div class="main-content-wrapper d-flex clearfix">
+
+        <div class="mobile-nav">
+            <div class="amado-navbar-brand">
+                <a href="#"><img src="image/GrupTheElysium-Logo.png" alt=""></a>
+            </div>
+            <div class="amado-navbar-toggler">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <header class="header-area clearfix">
+            <div class="nav-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="image/GrupTheElysium-Logo.png" alt=""></a>
+            </div>
+            <nav class="amado-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Anasayfa</a></li>
+                    <li><a href="shop.html">Hizmetlerimiz</a></li>
+                    @* <li><a href="product-details.html">Product</a></li>*@
+                    @* <li><a href="cart.html">Cart</a></li>*@
+                    @*  <li><a href="checkout.html">Checkout</a></li>*@
+                </ul>
+            </nav>
+            @*   <div class="amado-btn-group mt-30 mb-100">
+            <a href="#" class="btn amado-btn mb-15">%Discount%</a>
+            <a href="#" class="btn amado-btn active">New this week</a>
+            </div>*@
+            <div class="cart-fav-search mb-100 mt-30">
+                <hr />
+                <a href="cart.html" class="cart-nav"><img src="Template/img/core-img/cart.png" alt=""> Sepetim <span>(0)</span></a>
+                @*  <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
+                <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>*@
+            </div>
+            <div class="social-info d-flex justify-content-between">
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </header>
+
+        @RenderBody()
+    </div>
+    @* <section class="newsletter-area section-padding-100-0">
+    <div class="container">
+    <div class="row align-items-center">
+    <div class="col-12 col-lg-6 col-xl-7">
+    <div class="newsletter-text mb-100">
+    <h2>Subscribe for a <span>25% Discount</span></h2>
+    <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+    </div>
+    </div>
+    <div class="col-12 col-lg-6 col-xl-5">
+    <div class="newsletter-form mb-100">
+    <form action="#" method="post">
+    <input type="email" name="email" class="nl-email" placeholder="Your E-mail">
+    <input type="submit" value="Subscribe">
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>*@
+
+    <footer class="footer_area clearfix">
         <div class="container">
-            &copy; 2022 - Elysium.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4">
+                    <div class="single_widget_area">
+                        <div class="footer-logo mr-50">
+                            <a href="index.html"><img src="image/GrupTheElysium-Logo.png" alt=""></a>
+                        </div>
+                        <p class="copywrite">
+                            Copyright © 2022 The Elysium Taksim. Tüm Hakları Saklıdır.
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="single_widget_area">
+                        <div class="footer_menu">
+                            <nav class="navbar navbar-expand-lg justify-content-end">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                                <div class="collapse navbar-collapse" id="footerNavContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="shop.html">Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-details.html">Product</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cart.html">Cart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="checkout.html">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="Template/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="Template/js/popper.min.js"></script>
+    <script src="Template/js/bootstrap.min.js"></script>
+    <script src="Template/js/plugins.js"></script>
+    <script src="Template/js/active.js"></script>
 </body>
 </html>

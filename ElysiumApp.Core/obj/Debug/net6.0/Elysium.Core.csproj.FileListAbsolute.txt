@@ -10,3 +10,15 @@ C:\Users\Emre\Desktop\TheElysiumPaymentCore\ElysiumApp\ElysiumApp.Core\obj\Debug
 C:\Users\Emre\Desktop\TheElysiumPaymentCore\ElysiumApp\ElysiumApp.Core\obj\Debug\net6.0\refint\Elysium.Core.dll
 C:\Users\Emre\Desktop\TheElysiumPaymentCore\ElysiumApp\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.pdb
 C:\Users\Emre\Desktop\TheElysiumPaymentCore\ElysiumApp\ElysiumApp.Core\obj\Debug\net6.0\ref\Elysium.Core.dll
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\bin\Debug\net6.0\Elysium.Core.deps.json
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\bin\Debug\net6.0\Elysium.Core.dll
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\bin\Debug\net6.0\Elysium.Core.pdb
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.csproj.AssemblyReference.cache
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.AssemblyInfoInputs.cache
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.AssemblyInfo.cs
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.dll
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\refint\Elysium.Core.dll
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\Elysium.Core.pdb
+C:\Users\Emre\Desktop\TheElysiumPaymentV2\ElysiumApp.Core\obj\Debug\net6.0\ref\Elysium.Core.dll

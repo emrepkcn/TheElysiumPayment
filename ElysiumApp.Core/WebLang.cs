@@ -10,5 +10,6 @@ namespace Elysium.Core
     {
         public string Title { get; set; }
         public int LangId { get; set; }
+        public string Key { get; set; }
     }
 }
