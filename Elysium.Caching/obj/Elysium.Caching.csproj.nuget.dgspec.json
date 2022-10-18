@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentV2\\Elysium.Caching\\Elysium.Caching.csproj": {}
+    "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\Elysium.Caching\\Elysium.Caching.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentV2\\Elysium.Caching\\Elysium.Caching.csproj": {
+    "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\Elysium.Caching\\Elysium.Caching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentV2\\Elysium.Caching\\Elysium.Caching.csproj",
+        "projectUniqueName": "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\Elysium.Caching\\Elysium.Caching.csproj",
         "projectName": "Elysium.Caching",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentV2\\Elysium.Caching\\Elysium.Caching.csproj",
-        "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\TheElysiumPaymentV2\\Elysium.Caching\\obj\\",
+        "projectPath": "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\Elysium.Caching\\Elysium.Caching.csproj",
+        "packagesPath": "C:\\Users\\kadir aygün\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kadir aygün\\source\\repos\\soulbox\\TheElysiumPayment\\Elysium.Caching\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kadir aygün\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
